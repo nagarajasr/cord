@@ -9,7 +9,7 @@ used to deploy CORD-in-a-Box and a physical POD.
 
 ## Common Step (for both CiaB and a Physical POD)
 <pre><code>cd ~ && \
-wget https://raw.githubusercontent.com/opencord/cord/{{ book.branch }}/scripts/cord-bootstrap.sh && \
+wget https://raw.githubusercontent.com/opencord/cord/{{book.branch}}/scripts/cord-bootstrap.sh && \
 chmod +x cord-bootstrap.sh && \
 ~/cord-bootstrap.sh -v</code></pre>
 
